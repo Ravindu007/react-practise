@@ -1,0 +1,14 @@
+.navbar {
+  color: #fff;
+  .collapse {
+    justify-content: flex-end;
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
