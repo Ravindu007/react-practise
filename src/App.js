@@ -9,6 +9,8 @@ import Homepage from "./HomePage";
 import About from "./About";
 import Themes from "./Themes";
 import Timeline from "./Timeline";
+import Guidelines from "./Guidelines";
+import Judges from "./Judges";
 
 function App() {
   useEffect(()=>{
@@ -22,6 +24,8 @@ function App() {
       <About/>
       <Themes/>
       <Timeline/>
+      <Guidelines/>
+      <Judges/>
     </div>
   );
 }

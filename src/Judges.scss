@@ -1,0 +1,29 @@
+.judges {
+  width: 100%;
+  padding: 30px 0px;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    border: none;
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .judge-img {
+      }
+      .judge-text {
+        margin-top: -50px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: #fff;
+        width: 70%;
+        padding: 50px 0px;
+      }
+    }
+  }
+}
