@@ -11,6 +11,9 @@ import Themes from "./Themes";
 import Timeline from "./Timeline";
 import Guidelines from "./Guidelines";
 import Judges from "./Judges";
+import Prizes from "./Prizes";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   useEffect(()=>{
@@ -26,6 +29,9 @@ function App() {
       <Timeline/>
       <Guidelines/>
       <Judges/>
+      <Prizes/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -12,7 +12,6 @@ const Timeline = () => {
       <div className="timeline">
         <div className="container">
           <h1 className="text-center" data-aos = "zoom-in" style={{
-            marginTop:"-90px", 
             marginBottom:"80px",
             color:"gold"
           }}>TIME LINE</h1>

@@ -63,7 +63,7 @@ const Judges = () => {
   return(
   <div className="judges">
     <div className="container" data-aos="fade-up">
-      <h1>PANNEL OF JUDGES</h1>
+      <h1>PANNEL OF <span style={{color:"gold"}}>JUDGES</span></h1>
       <Slider {...settings}> 
         {judges.map((judge)=>(
           <div className= "card" key={judge.id}>
